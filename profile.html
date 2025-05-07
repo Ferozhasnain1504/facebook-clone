@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - SocialBook - Connect Online! </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d814eeae0c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img  src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online"  onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+        <!-- settings-menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the site</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!------------------ profile page ------------------>
+<div class="profile-container">
+    <img src="images/cover.png" class="cover-img">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/profile-pic.png" class="pd-image" >
+                <div>
+                    <h3>Jack Nicholson</h3>
+                    <p>120 Friends - 20 mututal</p>
+                    <img src="images/member-1.png">
+                    <img src="images/member-2.png">
+                    <img src="images/member-3.png">
+                    <img src="images/member-4.png">
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+            <button type="button"><img src="images/add-friends.png">Friend</button>
+            <button type="button"><img src="images/message.png">Message</button>
+            <br>
+            <a href="#"><img src="images/more.png"></a>
+        </div>
+    </div>
+
+
+
+    <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">The secret to Perfect Hack ? Make it Infallible. </p>
+                <hr>
+
+                <ul>
+                    <li><img src="images/profile-job.png"> Software Engineer at Google</li>
+                    <li><img src="images/profile-study.png"> Studied at University of illinois</li>
+                    <li><img src="images/profile-study.png"> B.Sc Computer Science</li>
+                    <li><img src="images/profile-location.png"> lives in Chicago, USA</li>
+                    <li><img src="images/profile-home.png"> From Los Angeles, USA</li>
+                </ul>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div><img src="images/photo1.png"></div>
+                    <div><img src="images/photo2.png"></div>
+                    <div><img src="images/photo3.png"></div>
+                    <div><img src="images/photo4.png"></div>
+                    <div><img src="images/photo5.png"></div>
+                    <div><img src="images/photo6.png"></div>
+                </div>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                </div>
+                <p>120 (20 mutual)</p>
+                <div class="friend-box">
+                    <div><img src="images/member-1.png"><p>Joseph N</p></div>
+                    <div><img src="images/member-2.png"><p>Nathan N</p></div>
+                    <div><img src="images/member-3.png"><p>George D</p></div>
+                    <div><img src="images/member-4.png"><p>Francis L</p></div>
+                    <div><img src="images/member-5.png"><p>Anthony E</p></div>
+                    <div><img src="images/member-6.png"><p>Michael A</p></div>
+                    <div><img src="images/member-7.png"><p>Edward M</p></div>
+                    <div><img src="images/member-8.png"><p>Bradon C</p></div>
+                    <div><img src="images/member-9.png"><p>James Doe</p></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea row="3" placeholder="What's on your mind, John!"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>May 15 2023, 00:01 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">
+                    Wishing <a href="#" class="friend-name">@Feroz Hasnain</a> a very Happy birthday🥳🎉. May this year be full of wonderful moments, exciting adventures, and endless happiness💖.<br>Best wishes! 
+                    <a href="#">#BroForLife🫂</a><a href="#">#CelebrateLife🎂</a><a href="#">#AnotherYearWiser🌟</a> 
+                </p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" > 120</div>
+                        <div><img src="images/comments.png" >45</div>
+                        <div><img src="images/share.png" >20</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>October 2022, 16:32 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">
+                    From breathtaking views to unforgettable moments, this trip was nothing short of incredible. 
+                    Every laugh, every adventure, and every memory made with <a href="#" class="friend-name">@Feroz Hasnain</a>, <a href="#" class="friend-name">@Brooke Monk</a>,
+                    <a href="#" class="friend-name">@Samona Rose</a> and <a href="#" class="friend-name">@Alison Mina</a>.will be cherished forever. Grateful for the amazing company 
+                    and the stories we'll be telling for years to come! 🌍✈️🏞️
+                    <a href="#">#UnforgettableTrip✈️</a><a href="#">#AdventureAwaits😄</a><a href="#">#MemoriesForLife📷</a> 
+                </p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" > 1043</div>
+                        <div><img src="images/comments.png" > 43</div>
+                        <div><img src="images/share.png" > 57</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>January 2022, 9:34 am</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">
+                    Have you ever thought of computer making decisions by itself, generating images, producing high qualiity videos, building designs all by 
+                    itself without the assistance of human. You may think how is this even possible ?. The answer to it is <a href="#" class="friend-name">Artificial Intelligence</a>. 
+                    Yes u heard it right AI it is the future in coming years although it will take years to Build AI but the Machine learning Models will be introduced very soon or may be next year itself.
+                    <a href="#">#GrowingTech✈️</a><a href="#">#ArtificialIntellingence </a><a href="#">#MachineLearning </a><a href="#">#LargeLanguageModels </a>
+                    <a href="#">#GenerativeAI</a> 
+                </p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" > 2054</div>
+                        <div><img src="images/comments.png" > 203</div>
+                        <div><img src="images/share.png" > 576</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+    <div class="footer">
+        <p>Copyright 2021 - Feroz Hasnain</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
