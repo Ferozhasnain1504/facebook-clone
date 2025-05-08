@@ -1,6 +1,44 @@
-# facebook-clone
+# 📘 Facebook Clone (Static & Responsive)
 
-This is a static UI clone of popular social media website facebook.<br>
-It is made using HTML, CSS and JS.<br>
-It is made using pure Vanilla CSS <br>
-It contains two webpages home page and profile page. The website is fully responsive that is it also works fine with small screen mobile devices.<br>
+A static, responsive clone of the Facebook UI built using **HTML**, **CSS**, and **JavaScript**. This project replicates the core front-end design and layout of Facebook's login and newsfeed pages — ideal for practicing responsive web design and layout structuring.
+
+---
+
+## 🌐 Live Demo
+
+👉 [View Live](https://your-live-demo-link.com)  
+<!-- Replace with your actual GitHub Pages or deployment link -->
+
+---
+
+## 📸 Preview
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📰 Newsfeed Page
+![Newsfeed Page](screenshots/newsfeed.png)
+
+> 📁 Add these images inside a `/screenshots/` folder in your repo.
+
+---
+
+## 🚀 Features
+
+- 🔹 Static UI clone of Facebook (no backend)
+- 📱 Fully responsive layout for mobile, tablet, and desktop
+- 🎨 Custom CSS styling inspired by Facebook’s UI
+- 🧠 Practice with HTML semantics, flexbox, grid, and responsive units
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure
+- **CSS3** – Styling and layout (flexbox, media queries)
+- **JavaScript** – Basic interactivity (optional)
+
+---
+
+## 📂 Project Structure
+
