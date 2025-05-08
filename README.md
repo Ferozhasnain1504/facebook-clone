@@ -47,15 +47,14 @@ Then open index.html in your browser
 
 
 ## 📄 License
-
-    This project is licensed under the MIT License.
+This project is licensed under the MIT License.
     
 
 ## 🙌 Acknowledgements
-    This project is inspired by the original UI of Facebook and is for educational/demo purposes only.
+ This project is inspired by the original UI of Facebook and is for educational/demo purposes only.
 
 ## 💡 Contributions Welcome!
-    Feel free to fork this repo, add improvements, and submit a pull request!
+Feel free to fork this repo, add improvements, and submit a pull request!
 
 Made with ❤️ by Feroz Hasnain
 ---
