@@ -58,8 +58,3 @@ Feel free to fork this repo, add improvements, and submit a pull request!
 
 Made with ❤️ by Feroz Hasnain
 ---
-
-Let me know if you'd like:
-- A **GitHub Pages deployment guide**
-- A **Dark Mode toggle feature**
-- Or help creating a **more realistic newsfeed UI**
